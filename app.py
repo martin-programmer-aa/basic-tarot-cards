@@ -71,6 +71,7 @@ def login():
             return redirect("/dashboard")
 
         else:
+            # return an error page
             return "Invalid username or password"
 
     return render_template("login.html")
