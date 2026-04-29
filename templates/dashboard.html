@@ -2,14 +2,20 @@
 <html>
 <head>
     <title>Dashboard</title>
+    <link rel=stylesheet href="static/style.css">
 </head>
 <body>
 
 <h1>Welcome {{ user }}</h1>
 
-<p>This is your dashboard page.</p>
-
 <a href="/logout">Logout</a>
 
+<h2> Tarot Cards </h>
+
+<button onclick=loadCards()>Load Tarot Cards</button>
+
+<div id=card-container></div>
+
+<script src="static/script.js"></script>
 </body>
 </html>

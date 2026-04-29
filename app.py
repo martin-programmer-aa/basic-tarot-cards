@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, redirect, session
 from flask_sqlalchemy import SQLAlchemy
+from flask import jsonify
 
 # Create app
 app = Flask(__name__)
@@ -88,13 +89,35 @@ def dashboard():
     # If logged in, show dashboard
     return render_template("dashboard.html", user=session["user"])
 
+# ------------------return all cards
+@app.route("/cards")
+def get_cards():
+    cards = TarotCard.query.all()
+    card_list = []
+    
+    for card in cards:
+        card_list.append({
+            "name": card.name,
+            "meaning": card.meaning
+        })
+        
+    return jsonify(card_list)
+
+
+#with app.app_context():
+#    db.create_all()
+#    if TarotCard.query.count() == 0:
+#        db.session.add(TarotCard(name="The Fool", meaning="New Beginnings"));
+#        db.session.add(TarotCard(name="The Magician", meaning="Power and skill"));
+#        db.session.commit()
+                                 
+
 # ------------------Logs the user out
 @app.route("/logout")
 def logout():
 
     # Remove user from session
     session.pop("user", None)
-
     return redirect("/login")
 
 # Run the server
