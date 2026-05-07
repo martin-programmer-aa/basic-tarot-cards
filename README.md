@@ -151,22 +151,6 @@ http://localhost:5000/login
 5. Draw cards and view card meanings
 6. Data will be stored using the application's storage system
 
-
-# Screenshots / Demo
-
-## Login Page
-(Add screenshot here)
-
-## Tarot Card Draw
-(Add screenshot here)
-
-## Card Meaning Display
-(Add screenshot here)
-
-## Backend/Data Storage Example
-(Add screenshot here)
-
-
 # Project Structure
 
 ```plaintext
@@ -187,7 +171,6 @@ basic-tarot-cards/
 │
 ├── app.py
 ├── README.md
-└── requirements.txt
 ```
 
 
@@ -215,7 +198,7 @@ User testing was conducted with 3 or more users.
 - Improve button responsiveness
 - Add clearer instructions
 - Improve mobile responsiveness
-- Make card meanings easier to read
+- Make card meanings easier to read - font was too small
 
 ## Improvements Implemented
 
@@ -232,7 +215,7 @@ User testing was conducted with 3 or more users.
 - Add animations and sound effects
 - Store reading history in a database
 - Improve accessibility features
-- Deploy the application publicly online
+- Deploy the application publicly online...
 
 
 # GitHub Repository
