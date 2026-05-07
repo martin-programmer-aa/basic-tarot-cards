@@ -6,7 +6,6 @@ Basic Tarot Cards is a full-stack web application that allows users to interact 
 
 This project demonstrates frontend development, backend integration, and persistent data storage while providing an interactive user experience.
 
----
 
 # Problem Being Solved
 
@@ -14,7 +13,6 @@ Many tarot card applications are overly complex or lack interactive functionalit
 
 The project also demonstrates how frontend systems communicate with backend services and data storage.
 
----
 
 # Features
 
@@ -27,7 +25,6 @@ The project also demonstrates how frontend systems communicate with backend serv
 - Responsive user interface
 - Dynamic content updates
 
----
 
 # Tech Stack
 
@@ -44,7 +41,6 @@ The project also demonstrates how frontend systems communicate with backend serv
 - Browser Local Storage
 - JSON/Data File Storage
 
----
 
 # Language & Framework Justification
 
@@ -54,7 +50,6 @@ Python and Flask were chosen for the backend because they provide a lightweight 
 
 Local storage and file-based storage were used to provide persistent data handling while keeping the application simple and efficient.
 
----
 
 # Installation Instructions
 
@@ -66,7 +61,6 @@ Before running the project, make sure the following software is installed:
 - Python 3.x
 - Git
 
----
 
 # Required VS Code Extensions
 
@@ -82,7 +76,6 @@ These extensions help with:
 - Debugging
 - Running the application correctly
 
----
 
 # Clone the Repository
 
@@ -90,7 +83,6 @@ These extensions help with:
 git clone https://github.com/martin-programmer-aa/basic-tarot-cards.git
 ```
 
----
 
 # Open the Project
 
@@ -98,7 +90,6 @@ git clone https://github.com/martin-programmer-aa/basic-tarot-cards.git
 2. Select **File → Open Folder**
 3. Open the `basic-tarot-cards` project folder
 
----
 
 # Select the Correct Python Interpreter
 
@@ -118,7 +109,6 @@ Python: Select Interpreter
 
 This step is required to ensure all Python libraries and dependencies work properly.
 
----
 
 # Install Required Libraries
 
@@ -130,7 +120,6 @@ pip install flask
 
 (Install any additional libraries if needed)
 
----
 
 # Running the Application
 
@@ -152,7 +141,6 @@ OR
 http://localhost:5000/login
 ```
 
----
 
 # Usage Instructions
 
@@ -163,7 +151,6 @@ http://localhost:5000/login
 5. Draw cards and view card meanings
 6. Data will be stored using the application's storage system
 
----
 
 # Screenshots / Demo
 
@@ -179,7 +166,6 @@ http://localhost:5000/login
 ## Backend/Data Storage Example
 (Add screenshot here)
 
----
 
 # Project Structure
 
@@ -204,7 +190,6 @@ basic-tarot-cards/
 └── requirements.txt
 ```
 
----
 
 # Challenges & Solutions
 
@@ -220,7 +205,6 @@ Another challenge involved storing tarot card data persistently. This was solved
 
 Creating a responsive and interactive user experience required careful JavaScript event handling and frontend updates.
 
----
 
 # User Testing
 
@@ -240,7 +224,6 @@ User testing was conducted with 3 or more users.
 - Improved layout spacing for mobile devices
 - Enhanced readability of tarot card descriptions
 
----
 
 # Future Improvements
 
@@ -251,7 +234,6 @@ User testing was conducted with 3 or more users.
 - Improve accessibility features
 - Deploy the application publicly online
 
----
 
 # GitHub Repository
 
@@ -259,44 +241,7 @@ Repository Link:
 
 https://github.com/martin-programmer-aa/basic-tarot-cards
 
----
-
-# GitHub Commit Examples
-
-Examples of meaningful commits used during development:
-
-- Added Flask backend routes
-- Connected frontend to backend
-- Implemented tarot card logic
-- Added local storage support
-- Fixed login routing issue
-- Updated README documentation
-- Improved responsive design
-
----
-
-# Requirements Checklist
-
-- Fully functional frontend
-- Fully functional backend
-- Frontend and backend connected
-- Persistent data storage implemented
-- User testing completed with 3+ users
-- Feedback documented
-- Improvements implemented
-- Professional README included
-- Organized GitHub repository
-- Meaningful GitHub commits
-- Fully functional application
-
----
 
 # Author
 
-Created by Martin
-
----
-
-# License
-
-This project is for educational purposes only.
+Created by Ms. Martin
