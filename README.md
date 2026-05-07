@@ -156,18 +156,17 @@ http://localhost:5000/login
 ```plaintext
 basic-tarot-cards/
 │
+├── instance/ ----> this was created automatically after creating the database in the app.py file (should be commented out)
+│   ├── database.db
+│
 ├── static/
-│   ├── css/
-│   ├── js/
-│   └── images/
+│   ├── script.js
+│   ├── style.css
 │
 ├── templates/
+│   ├── dashboard.html
 │   ├── login.html
-│   ├── home.html
-│   └── tarot.html
-│
-├── data/
-│   └── tarot-data.json
+│   └── register.html
 │
 ├── app.py
 ├── README.md
