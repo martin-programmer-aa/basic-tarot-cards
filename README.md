@@ -1,11 +1,12 @@
 # Basic Tarot Cards
 
-## Project Description
+# Project Description
 
 Basic Tarot Cards is a full-stack web application that allows users to interact with a virtual tarot card experience. Users can log in, draw tarot cards, and view card meanings through a connected frontend and backend system.
 
 This project demonstrates frontend development, backend integration, and persistent data storage while providing an interactive user experience.
 
+---
 
 # Problem Being Solved
 
@@ -13,6 +14,7 @@ Many tarot card applications are overly complex or lack interactive functionalit
 
 The project also demonstrates how frontend systems communicate with backend services and data storage.
 
+---
 
 # Features
 
@@ -24,9 +26,55 @@ The project also demonstrates how frontend systems communicate with backend serv
 - Persistent data storage
 - Responsive user interface
 - Dynamic content updates
+- Flask backend routing
+- Localhost server hosting
 
+---
 
-# Tech Stack
+# Frontend Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+
+The frontend is responsible for:
+- User interface design
+- Displaying tarot cards
+- User interaction
+- Dynamic page updates
+- Navigation between pages
+
+---
+
+# Backend Technologies Used
+
+- Python
+- Flask
+
+The backend is responsible for:
+- Application routing
+- Server-side processing
+- Handling requests and responses
+- Managing application logic
+- Connecting frontend functionality
+
+---
+
+# Data Storage Explanation
+
+The application uses local/browser storage and structured data files to maintain persistent application data.
+
+The storage system is used for:
+- Saving tarot card information
+- Maintaining user interaction data
+- Persisting application functionality
+- Supporting backend operations
+
+This satisfies the project requirement for a working data storage solution.
+
+---
+
+# Tech Stack Overview
 
 ## Frontend
 - HTML
@@ -41,15 +89,22 @@ The project also demonstrates how frontend systems communicate with backend serv
 - Browser Local Storage
 - JSON/Data File Storage
 
+## Development Tools
+- Visual Studio Code
+- GitHub
+- Git
+
+---
 
 # Language & Framework Justification
 
 JavaScript was selected for frontend functionality because it allows dynamic and interactive user experiences directly in the browser.
 
-Python and Flask were chosen for the backend because they provide a lightweight and simple framework for routing, server management, and backend logic.
+Python and Flask were selected for the backend because they provide a lightweight and efficient framework for server management, routing, and backend logic.
 
-Local storage and file-based storage were used to provide persistent data handling while keeping the application simple and efficient.
+Local storage and data files were selected because they provide persistent storage while remaining lightweight and easy to manage for this application.
 
+---
 
 # Installation Instructions
 
@@ -61,6 +116,7 @@ Before running the project, make sure the following software is installed:
 - Python 3.x
 - Git
 
+---
 
 # Required VS Code Extensions
 
@@ -76,6 +132,7 @@ These extensions help with:
 - Debugging
 - Running the application correctly
 
+---
 
 # Clone the Repository
 
@@ -83,6 +140,7 @@ These extensions help with:
 git clone https://github.com/martin-programmer-aa/basic-tarot-cards.git
 ```
 
+---
 
 # Open the Project
 
@@ -90,6 +148,7 @@ git clone https://github.com/martin-programmer-aa/basic-tarot-cards.git
 2. Select **File → Open Folder**
 3. Open the `basic-tarot-cards` project folder
 
+---
 
 # Select the Correct Python Interpreter
 
@@ -109,6 +168,7 @@ Python: Select Interpreter
 
 This step is required to ensure all Python libraries and dependencies work properly.
 
+---
 
 # Install Required Libraries
 
@@ -118,8 +178,9 @@ Open the terminal inside Visual Studio Code and install the required libraries:
 pip install flask
 ```
 
-(Install any additional libraries if needed)
+Install any additional libraries if required by the project.
 
+---
 
 # Running the Application
 
@@ -141,6 +202,7 @@ OR
 http://localhost:5000/login
 ```
 
+---
 
 # Usage Instructions
 
@@ -148,8 +210,31 @@ http://localhost:5000/login
 2. Open the localhost login page in your browser
 3. Log into the application
 4. Interact with the tarot card system
-5. Draw cards and view card meanings
-6. Data will be stored using the application's storage system
+5. Draw tarot cards
+6. View card meanings and information
+7. Continue interacting with the application features
+8. Data will persist using the application's storage system
+
+---
+
+# Screenshots / Demo
+
+## Login Page
+(Add screenshot here)
+
+## Home Page
+(Add screenshot here)
+
+## Tarot Card Draw Example
+(Add screenshot here)
+
+## Tarot Card Meaning Display
+(Add screenshot here)
+
+## Backend/Data Storage Example
+(Add screenshot here)
+
+---
 
 # Project Structure
 
@@ -172,40 +257,124 @@ basic-tarot-cards/
 ├── README.md
 ```
 
+---
 
 # Challenges & Solutions
 
 ## Challenge 1: Connecting Frontend and Backend
 
-One challenge was ensuring that the frontend properly communicated with the backend server. This was solved by implementing Flask routes and testing requests carefully.
+One challenge was ensuring that the frontend properly communicated with the backend server. This was solved by implementing Flask routes and carefully testing frontend-to-backend communication.
 
 ## Challenge 2: Persistent Data Storage
 
-Another challenge involved storing tarot card data persistently. This was solved using local storage and structured data files.
+Another challenge involved creating persistent data storage functionality. This was solved by implementing browser local storage and structured data files.
 
 ## Challenge 3: Dynamic User Interaction
 
-Creating a responsive and interactive user experience required careful JavaScript event handling and frontend updates.
+Creating a responsive and interactive user experience required JavaScript event handling and frontend updates. This was solved by improving event listeners and UI responsiveness.
 
+## Challenge 4: Application Routing
 
-# User Testing
+Managing multiple pages and login navigation required backend routing through Flask. This was solved by creating organized application routes and template handling.
 
-User testing was conducted with 3 or more users.
+---
 
-## Feedback Received
+# User Testing Feedback Document
 
-- Improve button responsiveness
-- Add clearer instructions
-- Improve mobile responsiveness
-- Make card meanings easier to read - font was too small
+## User Tester #1
 
-## Improvements Implemented
+### Name
+John
 
-- Updated button styling and responsiveness
+### Date Tested
+5-5-2026
+
+### Tasks Completed
+- Logged into the application
+- Drew multiple tarot cards
+- Navigated between pages
+- Tested responsiveness
+- Tested card interactions
+
+### Feedback Provided
+- Login process worked correctly
+- Buttons needed slightly better spacing
+- Card meanings were informative
+- Application was easy to navigate
+
+### Improvements Implemented
+- Improved button spacing
+- Adjusted page layout consistency
+- Improved readability of text sections
+
+---
+
+## User Tester #2
+
+### Name
+Zach
+
+### Date Tested
+5-5-2026
+
+### Tasks Completed
+- Logged into the application
+- Drew tarot cards
+- Tested browser responsiveness
+- Navigated through application features
+
+### Feedback Provided
+- Requested clearer instructions on the homepage
+- Suggested improving mobile responsiveness
+- Application loaded successfully
+
+### Improvements Implemented
 - Added clearer navigation instructions
-- Improved layout spacing for mobile devices
-- Enhanced readability of tarot card descriptions
+- Improved responsive spacing for smaller screens
+- Updated layout alignment
 
+---
+
+## User Tester #3
+
+### Name
+Kevin
+
+### Date Tested
+5-5-2026
+
+### Tasks Completed
+- Tested backend functionality
+- Drew tarot cards repeatedly
+- Tested page loading
+- Tested application interactions
+
+### Feedback Provided
+- Backend functionality worked correctly
+- Suggested improving card display formatting
+- Requested better visual spacing
+
+### Improvements Implemented
+- Improved tarot card formatting
+- Updated spacing and alignment
+- Improved visual consistency across pages
+
+---
+
+# Final Improvements Implemented
+
+Based on user testing feedback, the following improvements were made:
+
+- Improved button spacing
+- Improved mobile responsiveness
+- Added clearer instructions
+- Enhanced tarot card formatting
+- Improved text readability
+- Improved layout consistency
+- Updated page alignment
+- Enhanced frontend responsiveness
+
+---
 
 # Future Improvements
 
@@ -214,8 +383,11 @@ User testing was conducted with 3 or more users.
 - Add animations and sound effects
 - Store reading history in a database
 - Improve accessibility features
-- Deploy the application publicly online...
+- Deploy the application publicly online
+- Add additional tarot card decks
+- Improve visual effects and transitions
 
+---
 
 # GitHub Repository
 
@@ -223,7 +395,14 @@ Repository Link:
 
 https://github.com/martin-programmer-aa/basic-tarot-cards
 
+---
 
 # Author
 
-Created by Ms. Martin
+Created by Martin
+
+---
+
+# License
+
+This project is for educational purposes only.
