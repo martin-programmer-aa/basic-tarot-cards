@@ -70,9 +70,6 @@ The storage system is used for:
 - Persisting application functionality
 - Supporting backend operations
 
-This satisfies the project requirement for a working data storage solution.
-
-
 
 # Tech Stack Overview
 
