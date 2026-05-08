@@ -6,7 +6,7 @@ Basic Tarot Cards is a full-stack web application that allows users to interact 
 
 This project demonstrates frontend development, backend integration, and persistent data storage while providing an interactive user experience.
 
----
+
 
 # Problem Being Solved
 
@@ -14,7 +14,7 @@ Many tarot card applications are overly complex or lack interactive functionalit
 
 The project also demonstrates how frontend systems communicate with backend services and data storage.
 
----
+
 
 # Features
 
@@ -29,7 +29,7 @@ The project also demonstrates how frontend systems communicate with backend serv
 - Flask backend routing
 - Localhost server hosting
 
----
+
 
 # Frontend Technologies Used
 
@@ -44,7 +44,7 @@ The frontend is responsible for:
 - Dynamic page updates
 - Navigation between pages
 
----
+
 
 # Backend Technologies Used
 
@@ -58,7 +58,7 @@ The backend is responsible for:
 - Managing application logic
 - Connecting frontend functionality
 
----
+
 
 # Data Storage Explanation
 
@@ -72,7 +72,7 @@ The storage system is used for:
 
 This satisfies the project requirement for a working data storage solution.
 
----
+
 
 # Tech Stack Overview
 
@@ -94,7 +94,7 @@ This satisfies the project requirement for a working data storage solution.
 - GitHub
 - Git
 
----
+
 
 # Language & Framework Justification
 
@@ -104,7 +104,7 @@ Python and Flask were selected for the backend because they provide a lightweigh
 
 Local storage and data files were selected because they provide persistent storage while remaining lightweight and easy to manage for this application.
 
----
+
 
 # Installation Instructions
 
@@ -116,7 +116,7 @@ Before running the project, make sure the following software is installed:
 - Python 3.x
 - Git
 
----
+
 
 # Required VS Code Extensions
 
@@ -132,7 +132,7 @@ These extensions help with:
 - Debugging
 - Running the application correctly
 
----
+
 
 # Clone the Repository
 
@@ -140,7 +140,6 @@ These extensions help with:
 git clone https://github.com/martin-programmer-aa/basic-tarot-cards.git
 ```
 
----
 
 # Open the Project
 
@@ -148,7 +147,7 @@ git clone https://github.com/martin-programmer-aa/basic-tarot-cards.git
 2. Select **File → Open Folder**
 3. Open the `basic-tarot-cards` project folder
 
----
+
 
 # Select the Correct Python Interpreter
 
@@ -168,7 +167,6 @@ Python: Select Interpreter
 
 This step is required to ensure all Python libraries and dependencies work properly.
 
----
 
 # Install Required Libraries
 
@@ -180,7 +178,7 @@ pip install flask
 
 Install any additional libraries if required by the project.
 
----
+
 
 # Running the Application
 
@@ -202,7 +200,7 @@ OR
 http://localhost:5000/login
 ```
 
----
+
 
 # Usage Instructions
 
@@ -215,26 +213,6 @@ http://localhost:5000/login
 7. Continue interacting with the application features
 8. Data will persist using the application's storage system
 
----
-
-# Screenshots / Demo
-
-## Login Page
-(Add screenshot here)
-
-## Home Page
-(Add screenshot here)
-
-## Tarot Card Draw Example
-(Add screenshot here)
-
-## Tarot Card Meaning Display
-(Add screenshot here)
-
-## Backend/Data Storage Example
-(Add screenshot here)
-
----
 
 # Project Structure
 
@@ -277,7 +255,6 @@ Creating a responsive and interactive user experience required JavaScript event 
 
 Managing multiple pages and login navigation required backend routing through Flask. This was solved by creating organized application routes and template handling.
 
----
 
 # User Testing Feedback Document
 
@@ -307,7 +284,6 @@ John
 - Adjusted page layout consistency
 - Improved readability of text sections
 
----
 
 ## User Tester #2
 
@@ -333,7 +309,7 @@ Zach
 - Improved responsive spacing for smaller screens
 - Updated layout alignment
 
----
+
 
 ## User Tester #3
 
@@ -359,7 +335,7 @@ Kevin
 - Updated spacing and alignment
 - Improved visual consistency across pages
 
----
+
 
 # Final Improvements Implemented
 
@@ -374,7 +350,7 @@ Based on user testing feedback, the following improvements were made:
 - Updated page alignment
 - Enhanced frontend responsiveness
 
----
+
 
 # Future Improvements
 
@@ -387,7 +363,7 @@ Based on user testing feedback, the following improvements were made:
 - Add additional tarot card decks
 - Improve visual effects and transitions
 
----
+
 
 # GitHub Repository
 
@@ -395,14 +371,8 @@ Repository Link:
 
 https://github.com/martin-programmer-aa/basic-tarot-cards
 
----
+
 
 # Author
 
-Created by Martin
-
----
-
-# License
-
-This project is for educational purposes only.
+Created by Ms. Martin
