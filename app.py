@@ -104,12 +104,42 @@ def get_cards():
     return jsonify(card_list)
 
 
+#  *****--- ONLY RUN ONCE AND COMMENT OUT BEFORE RUNNING-----*****
 #with app.app_context():
+#
 #    db.create_all()
+#
+#    # Only add cards if database is empty
 #    if TarotCard.query.count() == 0:
-#        db.session.add(TarotCard(name="The Fool", meaning="New Beginnings"));
-#        db.session.add(TarotCard(name="The Magician", meaning="Power and skill"));
+#
+#        cards = [
+#
+#            TarotCard(name="The Fool", meaning="New beginnings, adventure, spontaneity"),
+#            TarotCard(name="The Magician", meaning="Power, skill, manifestation"),
+#            TarotCard(name="The High Priestess", meaning="Intuition, mystery, inner wisdom"),
+#            TarotCard(name="The Empress", meaning="Abundance, nurturing, creativity"),
+#            TarotCard(name="The Emperor", meaning="Authority, structure, leadership"),
+#            TarotCard(name="The Hierophant", meaning="Tradition, spiritual guidance"),
+#            TarotCard(name="The Lovers", meaning="Love, relationships, choices"),
+#            TarotCard(name="The Chariot", meaning="Determination, victory, willpower"),
+#            TarotCard(name="Strength", meaning="Courage, patience, compassion"),
+#            TarotCard(name="The Hermit", meaning="Reflection, solitude, wisdom"),
+#            TarotCard(name="Wheel of Fortune", meaning="Change, luck, destiny"),
+#            TarotCard(name="Justice", meaning="Fairness, truth, accountability"),
+#            TarotCard(name="The Hanged Man", meaning="Sacrifice, perspective, surrender"),
+#            TarotCard(name="Death", meaning="Transformation, endings, rebirth"),
+#            TarotCard(name="Temperance", meaning="Balance, peace, moderation"),
+#            TarotCard(name="The Devil", meaning="Temptation, attachment, materialism"),
+#            TarotCard(name="The Tower", meaning="Sudden change, upheaval, revelation"),
+#            TarotCard(name="The Star", meaning="Hope, inspiration, healing"),
+#            TarotCard(name="The Moon", meaning="Illusion, fear, subconscious"),
+#            TarotCard(name="The Sun", meaning="Success, joy, positivity"),
+#            TarotCard(name="Judgement", meaning="Reflection, awakening, renewal"),
+#            TarotCard(name="The World", meaning="Completion, fulfillment, achievement")
+#        db.session.bulk_save_objects(cards)
 #        db.session.commit()
+#
+#        print("Tarot cards added successfully!")
                                  
 
 # ------------------Logs the user out
