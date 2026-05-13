@@ -340,7 +340,7 @@ Based on user testing feedback, the following improvements were made:
 
 - Improved button spacing
 - Improved mobile responsiveness
-- Added clearer instructions
+- Add clearer instructions
 - Enhanced tarot card formatting
 - Improved text readability
 - Improved layout consistency
@@ -354,11 +354,11 @@ Based on user testing feedback, the following improvements were made:
 - Add multiple tarot spreads
 - Add user accounts and saved readings
 - Add animations and sound effects
-- Store reading history in a database
-- Improve accessibility features
-- Deploy the application publicly online
-- Add additional tarot card decks
-- Improve visual effects and transitions
+- Store reading history in a database nothing is saved at the moment for the user
+- Improve accessibility features (example: add audio)
+- Deploy the application publicly online.....maybe
+- Add additional tarot card decks (from classic to modern decks)
+- Improve visual effects and transitions (example: turn the card over ability)
 
 
 

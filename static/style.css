@@ -113,3 +113,14 @@ button:hover {
     color: gold;
     font-family: 'Cinzel', serif;
 }
+
+#p5-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+canvas {
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgba(255,215,0,0.4);
+}
